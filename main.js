@@ -21,11 +21,11 @@ function speak() {
   Webcam.attach(camera);
 }
 
+camera = document.createElement("camera");
+
 Webcam.set({
   width: 360,
   height: 250,
   image_format: "png",
   png_quality: 100,
 });
-
-camera = document.createElement("camera");
